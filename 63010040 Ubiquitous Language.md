@@ -1,5 +1,9 @@
 # Financial & Securities 
-<tr><td>Collateral</td><td>หลักทรัพย์ประกัน</td><tr>
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Collateral     | หลักทรัพย์ประกัน      |
+| Paragraph   | Text        |
 
 - Leverage\
 เป็นอัตราส่วนเพื่อที่จะใช้คำนวณมาร์จินในการซื้อขาย
