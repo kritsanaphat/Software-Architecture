@@ -1,6 +1,6 @@
 # Financial & Securities 
-- Collateral\
-> หลักทรัพย์ประกัน
+<tr><td>Collateral</td><td>หลักทรัพย์ประกัน</td><tr>
+
 - Leverage\
 เป็นอัตราส่วนเพื่อที่จะใช้คำนวณมาร์จินในการซื้อขาย
 - Liquidity\
