@@ -2,7 +2,7 @@
 
 | Syntax      | Description |
 | ----------- | ----------- |
-| Collateral     | หลักทรัพย์ประกัน      |
+| Collateral  |หลักทรัพย์ประกัน|
 | Paragraph   | Text        |
 
 - Leverage\
