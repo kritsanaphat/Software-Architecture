@@ -1,12 +1,19 @@
 # 1.1 Audacity
 - ***purpose***: เป็นโปรแกรมที่ใช้ในการอัดเสียง, ตัดต่อเสียง, mixเสียง, import/export, แปลงไฟล์ไปมา         
 
-- ***architectural styles***: Audacity ใช้รูปแบบของ **""Puug in""** เป็น architecture โดยมี ***Blockfiles*** เป็น Core System
+- ***architectural styles***: Audacity ใช้รูปแบบของ **""Plug in""** เป็น architecture โดยมี ***Blockfiles*** เป็น Core System
 
  ![pic!](https://github.com/kritsanaphat/Software-Architecture/blob/main/audacityARCHITEC.png "layer")
 
 - ***quality attribute scenarious***:
-- 
+     **Modifiability** : เนื่องจากมี architecture แบบ Plug in และ audacity มีกาแบ่งmoduleเป็นย่อยๆ จึงทำให้การเพิ่ม feature ใหม่นั้นเป็นเรื่องที่สะดวก และรวดเร็ว
+        Source: developer 
+        Stimulus: ต้องการเพิ่ม feature ใหม่  
+        Artifacts: code
+        Environment: เวลา
+        Response: change is made
+        Response Measure: ใช้เวลาน้อย ไม่พบปัญหาในการ test
+
 
 
 - https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%AD%E0%B9%81%E0%B8%94%E0%B8%8B%E0%B8%B4%E0%B8%95%E0%B8%B5
