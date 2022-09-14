@@ -7,19 +7,28 @@
 
 - ***quality attribute scenarious***: 
     ```sh 
-    **Modifiability** : เนื่องจากมี architecture แบบ Plug in และ audacity มีกาแบ่งmoduleเป็นย่อยๆ จึงทำให้การเพิ่ม feature ใหม่นั้นเป็นเรื่องที่สะดวก และรวดเร็ว
+    **Modifiability** : เนื่องจากมี architecture แบบ Plug_in และ audacity มีกาแบ่งmoduleเป็นย่อยๆ จึงทำให้การเพิ่ม feature ใหม่นั้นเป็นเรื่องที่สะดวก และรวดเร็ว
     ```
 
     - Source: developer 
     - Stimulus: ต้องการเพิ่ม feature ใหม่  
     - Artifacts: code
     - Environment: เวลา        
-    - Response: change is made/
-    - Response Measure: ใช้เวลาน้อย ไม่พบปัญหาในการ test/
+    - Response: change is made
+    - Response Measure: ใช้เวลาน้อย ไม่พบปัญหาในการ test
     
 
 
-    -**de**
+    ```sh 
+    **Testability** : เนื่องจากมี Scripted Test ในการเช็คไฟล์ทีละส่วน
+    ```
+    - Source: Developper
+    - Stimulus: Complete a code unit
+    - Artifacts: code unit
+    - Environment: Development      
+    - Response: Perform a test sequence
+    - Response Measure: effort to perform tests
+    
 
 
 
