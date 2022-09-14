@@ -2,7 +2,7 @@
 - ***purpose***: เป็นโปรแกรมที่ใช้ในการอัดเสียง, ตัดต่อเสียง, mixเสียง, import/export, แปลงไฟล์ไปมา         
 
 - ***architectural styles***: Audacity ใช้รูปแบบของ **""Puug in""** เป็น architecture โดยมี ***Blockfiles*** เป็น Core System
-- ![pic!](https://github.com/kritsanaphat/Software-Architecture/blob/main/audacityARCHITEC.png "layer")
+ ![pic!](https://github.com/kritsanaphat/Software-Architecture/blob/main/audacityARCHITEC.png "layer")
 
 - ***quality attribute scenarious***:
 - 
