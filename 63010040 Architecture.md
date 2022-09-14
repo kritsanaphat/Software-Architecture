@@ -11,11 +11,11 @@
     ```
 
     - Source: developer 
-    - Stimulus: ต้องการเพิ่ม feature ใหม่  
+    - Stimulus: add new feature 
     - Artifacts: code
-    - Environment: เวลา        
+    - Environment: time      
     - Response: change is made
-    - Response Measure: ใช้เวลาน้อย ไม่พบปัญหาในการ test
+    - Response Measure: less time, no problem in testing
     
 
 
@@ -31,7 +31,7 @@
     
 
      ```sh 
-    **Usability** : 
+    **Usability** 
     ```
     - Source: User
     - Stimulus: Use a system
@@ -52,6 +52,45 @@
 
 - ***architectural styles***: Audacity ใช้รูปแบบของ **""Layers Style""** เป็น architecture 
 ประกอบด้วย Scripting Layer -> Artist Layer -> Backend Layer
+Scripting Layer(จะเป็นส่วนที่ผู้ใช้งานสามารถเขียนโปรแกรมเพื่อใช้งานกับ Matplotlib เพื่อสร้างกราฟ),
+Artist Layer(ส่วนสร้าง figure และผู้ใช้งานสามารถเขียนโปรแกรมเพื่อใช้งานกับ Matplotlib ได้),
+Backend Layer(เป็น layer ที่ใช้สำหรับการแสดงผลของ figure)
+
+- ***quality attribute scenarious***: 
+    ```sh 
+    **Integrability** 
+    ```
+
+    - Source: user
+    - Stimulus: Integrate beetween matplotlib and Python 
+    - Artifacts: system
+    - Environment: Integration        
+    - Response: Components is the new configuration are success fully and correctly
+    - Response Measure: Success in using the program
+
+    ```sh 
+    **Modifiability** 
+    ```
+
+    - Source: developer
+    - Stimulus: add new feature 
+    - Artifacts: code
+    - Environment: time        
+    - Response: Components change is made
+    - Response Measure: less time, no problem in testing
+
+
+     ```sh 
+    **Performance** 
+    ```
+
+    - Source: user
+    - Stimulus: Commands to create graphs
+    - Artifacts: system
+    - Environment: Deployment, Runtime       
+    - Response: time for created graphs
+    - Response Measure: Latency
+
 
 - https://www2.cs.science.cmu.ac.th/courses/204101/lib/exe/fetch.php?media=w13-lab_-matplotlib.pdf
 - https://medium.com/@codingpilot25/architecture-of-matplotlib-1a2d44370f5a
