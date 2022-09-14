@@ -5,8 +5,7 @@
 
  ![pic!](https://github.com/kritsanaphat/Software-Architecture/blob/main/audacityARCHITEC.png "layer")
 
-- ***quality attribute scenarious***: 
- - **Modifiability** : เนื่องจากมี architecture แบบ Plug in และ audacity มีกาแบ่งmoduleเป็นย่อยๆ จึงทำให้การเพิ่ม feature ใหม่นั้นเป็นเรื่องที่สะดวก และรวดเร็ว/
+- ***quality attribute scenarious***: **Modifiability** : เนื่องจากมี architecture แบบ Plug in และ audacity มีกาแบ่งmoduleเป็นย่อยๆ จึงทำให้การเพิ่ม feature ใหม่นั้นเป็นเรื่องที่สะดวก และรวดเร็ว/
     - Source: developer 
     - Stimulus: ต้องการเพิ่ม feature ใหม่  
     - Artifacts: code
