@@ -1,4 +1,4 @@
-package com.solid.book;
+package book;
 
 import java.io.FileWriter;
 import java.io.IOException;

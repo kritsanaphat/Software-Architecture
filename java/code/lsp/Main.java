@@ -1,4 +1,4 @@
-package com.solid.lsp;
+package lsp;
 
 
 public class Main {
@@ -7,18 +7,18 @@ public class Main {
     private static final int height = 5;
 
     public static void main(String[] args) {
-        Rectangle reg1 = new Rectangle(width, height);
+        Shape reg1 = new Rectangle(width, height);
         System.out.println("==== Rectangle ====");
         System.out.println("Width = " + width);
         System.out.println("Height = " + height);
         System.out.println("Area = " + reg1.getArea());
 
-        Rectangle reg2 = new Square(5);
-        reg2.setWidth(width);
-        reg2.setHeight(height);
+        Shape reg2 = new Square(width);
         System.out.println("====   Square  ====");
-        System.out.println("Width = " + width);
-        System.out.println("Height = " + height);
+        System.out.println("Side = " + width);
+        System.out.println("Area = " + reg2.getArea());
+        reg2.setHeight(height);
+        System.out.println("Side = " + height);
         System.out.println("Area = " + reg2.getArea());
     }
 }
