@@ -2,7 +2,9 @@ package creational;
 
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
-
+//Ignore this file
+//Problem !! when we want to extend any format, we have to edit in this file
+//but it's violate to OCP   
 public class BookMetadataFormatterFactory {
     public enum Format {
         CSV("CSV"),
